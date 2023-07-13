@@ -47,7 +47,7 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
     ```
 ## Contributors
 <a href = "https://github.com/campforce/car-and-parts-export-company/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo=campforce/auto-parts-retail"/>
+  <img src = "https://contrib.rocks/image?repo=campforce/car-and-parts-export-company"/>
 </a>
 
 
