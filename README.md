@@ -19,6 +19,7 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
 1. Clone this repository:
 
     ```
+    cd ~/Desktop
     git clone https://github.com/campforce/car-and-parts-export-company.git
     cd car-and-parts-export-company
     ```
