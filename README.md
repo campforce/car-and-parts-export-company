@@ -11,6 +11,7 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
 ### Requirements
   - Enable Dev Hub in your Org
   - Install Salesforce CLI
+
   - Install Visual Studio Code
   - Install the Visual Studio Code Salesforce extensions:
 
