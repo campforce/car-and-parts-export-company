@@ -15,7 +15,7 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
   - Install Fork
   - Install Java
   - Install Visual Studio Code
-  - Install the Visual Studio Code Salesforce extensions
+  - Install the Visual Studio Code Salesforce extensions:
 
 ---
 
