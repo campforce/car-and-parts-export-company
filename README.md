@@ -46,6 +46,6 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
     sfdx force:org:open
     ```
 ## Contributors
-<a href = "https://github.com/campforce/auto-parts-retail/graphs/contributors">
+<a href = "https://github.com/campforce/car-and-parts-export-company/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=campforce/auto-parts-retail"/>
 </a>
