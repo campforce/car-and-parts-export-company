@@ -19,20 +19,20 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
 1. Clone this repository:
 
     ```
-    git clone https://github.com/campforce/auto-parts-retail.git
-    cd auto-parts-retail
+    git clone https://github.com/campforce/car-and-parts-export-company.git
+    cd car-and-parts-export-company
     ```
 
 1. Authorize your hub org:
 
     ```
-    sfdx auth:web:login -d -a devhub
+    sfdx auth:web:login -d -a mainOrg
     ```
 
 1. Create a scratch org:
 
     ```
-    sfdx force:org:create -s -f config/project-scratch-def.json -a app
+    sfdx force:org:create -s -f config/project-scratch-def.json -a scratchOrg
     ```
 
 1. Push the app to your scratch org:
