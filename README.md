@@ -14,6 +14,7 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
 - [Install Git (for Windows users Only)](https://git-scm.com/downloads)
 - [Install Fork](https://git-fork.com/)
 - [Install Visual Studio Code](https://code.visualstudio.com/download)
+- [Install Java](https://www.java.com/en/download/)
 - [Set Up Visual Studio Code](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components/set-up-visual-studio-code)
 
 ---
