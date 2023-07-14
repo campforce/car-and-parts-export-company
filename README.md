@@ -9,12 +9,12 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
 ## Installation
 
 ### Before starting the project
-1 [Enable Dev Hub in your Org](https://www.youtube.com/watch?v=Y1pZ9sFcILo)
-2 [Install Salesforce CLI](https://developer.salesforce.com/tools/sfdxcli)
-3 [Install Git (for Windows users Only)](https://git-scm.com/downloads)
-4 [Install Fork](https://git-fork.com/)
-5 [Install Visual Studio Code](https://code.visualstudio.com/download)
-6 [Set Up Visual Studio Code](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components/set-up-visual-studio-code)
+- [Enable Dev Hub in your Org](https://www.youtube.com/watch?v=Y1pZ9sFcILo)
+- [Install Salesforce CLI](https://developer.salesforce.com/tools/sfdxcli)
+- [Install Git (for Windows users Only)](https://git-scm.com/downloads)
+- [Install Fork](https://git-fork.com/)
+- [Install Visual Studio Code](https://code.visualstudio.com/download)
+- [Set Up Visual Studio Code](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components/set-up-visual-studio-code)
 
 ---
 
