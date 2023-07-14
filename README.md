@@ -8,7 +8,7 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
 
 ## Installation
 
-### Requirements
+### Before starting the project
   - Enable Dev Hub in your Org
   - Install Salesforce CLI
 
