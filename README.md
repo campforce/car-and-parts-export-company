@@ -5,6 +5,7 @@
 
 # Auto Parts Retail App
 Salesforce application of auto parts retailer. 🚘🛠⚙️
+***
 
 ## [Installation Video](https://zoom.us/rec/play/QF_dKsdnsIKPvAT98guYYZG_pporRnW2dGHeByTk6v03yYie46fydZT_17XIYB7_7PApm-IdBL5VM1ky.dVw2THyU1SM91WkK?autoplay=true&startTime=1689355391000/)
 
