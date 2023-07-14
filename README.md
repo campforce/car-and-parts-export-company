@@ -20,7 +20,7 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
 - [Enable Dev Hub in your Org](https://www.youtube.com/watch?v=Y1pZ9sFcILo)
 ---
 
-## [Step 1:Get full copy  repository to your Scratch org]
+## Step 2:Get full copy  repository to your Scratch org
 
 
 1. Clone this repository:
