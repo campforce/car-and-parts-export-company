@@ -9,6 +9,6 @@ public with sharing class AccountService {
      */
     public static void demonstrativeMethod(Map<Id, Account> oldMap, Map<Id, Account> newMap) {
         // your logic is here.
-        system.debug('Hello How are you?');
+        system.debug('Hello, I am from Scratch Org');
     }
 }
