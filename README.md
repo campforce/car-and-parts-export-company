@@ -6,7 +6,7 @@
 ## [**About** - Auto Parts Retail (video)](https://zoom.us/rec/play/oEhItPsStR5wsRXsc3_4RfRE0dwBvK3UXom-uqZNpkPVpz7-eLf9FRfrvWNvAN4OLaRVd2Lp3-rRJx_j.oXo5sKOG-0G39ng_?autoplay=true&startTime=1689271147000/)
 Salesforce application of auto parts retailer. 🚘🛠⚙️
 ***
-*Complete following step step 1-2 before starting the project !!!*
+***Complete following step step 1-2 before starting the project !!!***
 ## [Step 1: Installation (video)](https://zoom.us/rec/play/QF_dKsdnsIKPvAT98guYYZG_pporRnW2dGHeByTk6v03yYie46fydZT_17XIYB7_7PApm-IdBL5VM1ky.dVw2THyU1SM91WkK?autoplay=true&startTime=1689355391000/)
 
 
