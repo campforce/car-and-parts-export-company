@@ -53,7 +53,7 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
     sfdx force:org:open
     ```
     
-## [Learning:  Deployment Sessions]
+**Learning:  Deployment Sessions**
  
     
 ## Contributors
