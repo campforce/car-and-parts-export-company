@@ -52,6 +52,8 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
     ```
     sfdx force:org:open
     ```
+    
+## [Step 2: Deployment 1 (video)](url/)
  
     
 ## Contributors
