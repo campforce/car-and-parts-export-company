@@ -7,9 +7,9 @@
 Salesforce application of auto parts retailer. 🚘🛠⚙️
 ***
 
-## [Step 1: Installation Video](https://zoom.us/rec/play/QF_dKsdnsIKPvAT98guYYZG_pporRnW2dGHeByTk6v03yYie46fydZT_17XIYB7_7PApm-IdBL5VM1ky.dVw2THyU1SM91WkK?autoplay=true&startTime=1689355391000/)
+## (Video) [Step 1: Installation](https://zoom.us/rec/play/QF_dKsdnsIKPvAT98guYYZG_pporRnW2dGHeByTk6v03yYie46fydZT_17XIYB7_7PApm-IdBL5VM1ky.dVw2THyU1SM91WkK?autoplay=true&startTime=1689355391000/)
 
-#Please install and setup following ups before starting the to work
+
 - [Install Salesforce CLI](https://developer.salesforce.com/tools/sfdxcli)
 - [Install Git (for Windows users Only)](https://git-scm.com/downloads)
 - [Install Fork](https://git-fork.com/)
@@ -20,7 +20,7 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
 - [Enable Dev Hub in your Org](https://www.youtube.com/watch?v=Y1pZ9sFcILo)
 ---
 
-## [Step 2: Get a full copy of Github repository to your Scratch org](https://zoom.us/rec/play/uUp8Ddv0bA2pQaljXtzsqlIYmdcQuy_m7ynL05F9Ioc8J7ASYkb4zBqibSzgun3UnePfHKXm-orgdS8O.1IAH2SFTVGFVgwNJ?autoplay=true&startTime=1689413199000/)
+## (video) [Step 2: Get a full copy of Github repository to your Scratch org](https://zoom.us/rec/play/uUp8Ddv0bA2pQaljXtzsqlIYmdcQuy_m7ynL05F9Ioc8J7ASYkb4zBqibSzgun3UnePfHKXm-orgdS8O.1IAH2SFTVGFVgwNJ?autoplay=true&startTime=1689413199000/)
 
 1. Clone this repository:
 
