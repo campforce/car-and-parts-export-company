@@ -7,7 +7,7 @@
 Salesforce application of auto parts retailer. 🚘🛠⚙️
 ***
 
-# Before you start the project, please so the following 2 step
+# Complete following step step 1-2 before starting the project
 ## (video) [Step 1: Installation](https://zoom.us/rec/play/QF_dKsdnsIKPvAT98guYYZG_pporRnW2dGHeByTk6v03yYie46fydZT_17XIYB7_7PApm-IdBL5VM1ky.dVw2THyU1SM91WkK?autoplay=true&startTime=1689355391000/)
 
 
