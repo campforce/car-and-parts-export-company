@@ -59,8 +59,7 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
     
 ### 🙋🎓 **Learning:** _Deployment Sessions:_
 - **Session 1:** About Deployment
-          - How to authorize Fork with Github
-          - How to push and pull the code  
+
  
     
 ## Contributors
