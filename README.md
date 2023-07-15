@@ -58,7 +58,8 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
    
     
 ### 🙋🎓 **Learning:** _Deployment Sessions:_
-- **Session 1:** About Deployment
+- **Session 1:** About Deployment (https://us06web.zoom.us/rec/share/q18Tw56QnvYXY8xBe5-7khOpeulugEE-fd9xM0TgOR4_t9RGqPbvYN8Y_1KLL9E5.6c4odNyJw7h5dkig?startTime=1689423635000
+Код доступа: hff9!%23/)
 
  
     
