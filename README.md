@@ -52,8 +52,6 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
     ```
     sfdx force:org:open
     ```
-
-## Step 3: About Auto Car Part Project
  
     
 ## Contributors
