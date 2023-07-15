@@ -57,7 +57,7 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
    ---
    
     
-### 🙋🎓 Learning: _Deployment Sessions:_
+### 🙋🎓 Learning: **_Deployment Sessions:_**
  
     
 ## Contributors
