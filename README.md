@@ -60,7 +60,7 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
 ### 🙋🎓 **Learning:** _Deployment Sessions:_
 - [Session 1: **About the Deployment**](https://us06web.zoom.us/rec/share/_GJENfsOP2Mk7xmq7MIgN51SGsM66aKoL9bzI-kdUPFWO3v-FC0MQYV3na5mHq-R.hhwkhZ3PXLzQoe0y?startTime=1689423635000/)
 - [Session 2: **Push And Pull Example**](https://us06web.zoom.us/rec/share/q8o5mzDtTD_76CnJGQLu9QMEWLgiY6NElB9IIvOwsjSqd1teo_OlgF5t9garkZhn.b1F1xnnevkOfmLRV?startTime=1689357305000/)
-- [Session 3: **Example of completing (pushing-pulling) LWC Tasks**](https://us06web.zoom.us/rec/share/WWAeoFn9X0O-EBGgKUA0mwt3jQEUHapEyfxzZCB61rtTuAwDs8N0qKzZD5-jTIAs.iDNi4qpGnpb61o99?startTime=1689429913000/)
+- [Session 3: **Example of completing (pushing-pulling) LWC Tasks**](https://us06web.zoom.us/rec/share/hG6UKZEo_wWm2BSGkKNdjObTUpvFmfqMIbQE5CC6-mRFkEysG79Ne_D6TjtllHEb._J1yltdWTY_Aa9m8/)
 - [Session 4: **Example of completing (pushing-pulling) Admin Tasks**](https://zoom.us/rec/play/M-S7M0_vvEgRluV67OQVjsbM8b4cclK_Ju1bot5qh7pCRRUUaTCQ4Ei9gt9s-RUmObTm9cy2nxX__tg.I_T4xA-RRMVPGoEf?autoplay=true&startTime=1689492046000)
 - [Session 5: **Example of completing (pushing-pulling) Job (Batchable/Schedulleable) Tasks**](https://zoom.us/rec/play/0Q6iQmxUNRVFfy1dWQ5aoL08z5l5M68GF2G2-iRNxC2Pme_ZZ4MYneJgDWSDRxtoe_8T-Qz8-YLIwNF3.y9mDmrDVXeemYcsZ?autoplay=true&startTime=1689501084000)
 - [Session 6: **Session about Trigger Framework**](https://www.getforce.dev/courses/take/developer/lessons/45262207-video-lesson-2023-03-29)
