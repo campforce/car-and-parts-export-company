@@ -62,6 +62,7 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
 - [Session 2: **Push And Pull Example**](https://us06web.zoom.us/rec/play/6E1RzluXIzeyId7MdSNMB_5vjwigUjY_m6fmqUsocbMe9lsZDm15YKIbhN8hRK1Sp2fnBsRJ_DJKKrrN.i6-Wcrj7qJLGnOs-?canPlayFromShare=true&from=my_recording&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fus06web.zoom.us%2Frec%2Fshare%2FbD78fzyNIqPl1p3D5EOOJmkkrcL60TPaA6g40M2xIk6XdJwgZJAma4eo51xY3QPI.pPDV16mRo9QrwX-S/)
 - [Session 3: **Example of completing (pushing-pulling) LWC Tasks**](https://us06web.zoom.us/rec/play/2yKb8ZLc8no7x7XnNjVEc013g1-whIswAy4yKN5oYZtb3-k8lx0tbOUSJcfWXOgwr-4b2SEvbnV9kvOi.YrBU_AuHTTFw0AXq?autoplay=true&startTime=1689429913000)
 - [Session 4: **Example of completing (pushing-pulling) Admin Tasks**](https://zoom.us/rec/play/M-S7M0_vvEgRluV67OQVjsbM8b4cclK_Ju1bot5qh7pCRRUUaTCQ4Ei9gt9s-RUmObTm9cy2nxX__tg.I_T4xA-RRMVPGoEf?autoplay=true&startTime=1689492046000)
+- - [Session 4: **Example of completing (pushing-pulling) Job (Batchable/Schedulleable) Tasks**](https://zoom.us/rec/play/0Q6iQmxUNRVFfy1dWQ5aoL08z5l5M68GF2G2-iRNxC2Pme_ZZ4MYneJgDWSDRxtoe_8T-Qz8-YLIwNF3.y9mDmrDVXeemYcsZ?autoplay=true&startTime=1689501084000)
 
 
 
