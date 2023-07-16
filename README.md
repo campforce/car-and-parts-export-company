@@ -60,7 +60,7 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
 ### 🙋🎓 **Learning:** _Deployment Sessions:_
 - [Session 1: **About the Deployment**](https://us06web.zoom.us/rec/play/u_DIN7ViLfp1Ho04hO3rsoWrO3Zc5OMxbuc7DvVlOtpD-L2y_HuSXyuNAqXjt0NvoTlXyJ8puy1RnKyL.2iziL_u8EeLV3mMI?autoplay=true/)
 - [Session 2: **Push And Pull Example**](https://us06web.zoom.us/rec/play/6E1RzluXIzeyId7MdSNMB_5vjwigUjY_m6fmqUsocbMe9lsZDm15YKIbhN8hRK1Sp2fnBsRJ_DJKKrrN.i6-Wcrj7qJLGnOs-?canPlayFromShare=true&from=my_recording&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fus06web.zoom.us%2Frec%2Fshare%2FbD78fzyNIqPl1p3D5EOOJmkkrcL60TPaA6g40M2xIk6XdJwgZJAma4eo51xY3QPI.pPDV16mRo9QrwX-S/)
-- [Session 3: **Example of completing LWC Task**](https://us06web.zoom.us/rec/play/2yKb8ZLc8no7x7XnNjVEc013g1-whIswAy4yKN5oYZtb3-k8lx0tbOUSJcfWXOgwr-4b2SEvbnV9kvOi.YrBU_AuHTTFw0AXq?autoplay=true&startTime=1689429913000)
+- [Session 3: **Example of completing (pushing-pulling) LWC Task**](https://us06web.zoom.us/rec/play/2yKb8ZLc8no7x7XnNjVEc013g1-whIswAy4yKN5oYZtb3-k8lx0tbOUSJcfWXOgwr-4b2SEvbnV9kvOi.YrBU_AuHTTFw0AXq?autoplay=true&startTime=1689429913000)
 
 
 
