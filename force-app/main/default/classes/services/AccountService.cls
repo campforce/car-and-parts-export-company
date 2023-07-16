@@ -11,4 +11,22 @@ public with sharing class AccountService {
         // your logic is here.
        
     }
+    
+    
+      /**\\Write the trigger that checks if the acccount phone is empty or not when created, 
+     * if empty, populate wit the following phone number:
+     * @param newAccount new accounts
+     * @author bektur-baisyshbek
+     */
+   public static void accountPhoneUpdate(List <Account> accList) {
+        
+       for(Account acc: accList){
+           if(acc.Phone==null){
+             acc.Phone='+1 222 333 4444';
+           }
+       }
+       
+    }
+    
+    
 }

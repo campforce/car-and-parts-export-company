@@ -15,4 +15,8 @@ public class AccountTriggerHandler extends TriggerHandler {
     public override void beforeUpdate() {
         AccountService.demonstrativeMethod(oldAccountMap, newAccountMap);
     }
+    
+    public override void beforeInsert() {
+        AccountService.accountPhoneUpdate(newAccountList);
+    }
 }
