@@ -7,7 +7,7 @@
 Salesforce application of auto parts retailer. 🚘🛠⚙️
 ***
 ***Complete the following 1-2 steps before starting the project !!!***
-## [Step 1: Installation (video)](https://zoom.us/rec/play/QF_dKsdnsIKPvAT98guYYZG_pporRnW2dGHeByTk6v03yYie46fydZT_17XIYB7_7PApm-IdBL5VM1ky.dVw2THyU1SM91WkK?autoplay=true&startTime=1689355391000/)
+## [Step 1: Installation (video)](https://us06web.zoom.us/rec/share/PNP9PVR0Rm050UmgaxLFDMj6nXUzVhYe4LSrutY26hVHFNt00KYrMwk4AUk4oByd.qUtV-f20K2GYv1k1/)
 
 
 - [Install Salesforce CLI](https://developer.salesforce.com/tools/sfdxcli)
