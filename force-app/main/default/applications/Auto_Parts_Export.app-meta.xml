@@ -8,8 +8,9 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
-    <label>Auto Parts Retail</label>
+    <label>Auto Parts Export</label>
     <navType>Standard</navType>
+    <tabs>Auto_Part_Export</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>Car__c</tabs>
@@ -17,6 +18,7 @@
     <tabs>Container__c</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-FinanceTransaction</tabs>
+    <tabs>standard-File</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Auto_Parts_Retail_UtilityBar</utilityBar>
 </CustomApplication>
