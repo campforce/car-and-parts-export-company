@@ -98,6 +98,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Car__c.Car_Cost_converted_KGS__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Car__c.Comission__c</field>
         <readable>true</readable>
     </fieldPermissions>
