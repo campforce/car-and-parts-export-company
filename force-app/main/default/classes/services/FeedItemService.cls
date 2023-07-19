@@ -11,20 +11,24 @@ public with sharing class FeedItemService {
         //--- This retrieves the case for which feed has been entered.
         Case c = [select id, status from Case where Id = :fi.ParentId];
      
-        //--- Now we check if the feed ends with text '#[caseWorking]'. 
-     
-    String bodyText = fi.Body.replaceAll('\\[[^\\]]*\\]', '');
-        if (fi.Body==bodyText){
+              
+      // check if body consist from word working
+        if (fi.Body.containsIgnoreCase('caseworking')){
             c.Status = 'Working';    
-        } else {
-            system.debug(fi.Body);
-            system.debug(bodyText);
-         
         }
-     listOfCases.add(c);
+        if (fi.Body.containsIgnoreCase('caseescalated'))
+        {
+              c.Status = 'Escalated';  
+        } 
+        if(fi.Body.containsIgnoreCase('caseclosed')){
+             c.Status = 'Closed';  
+        } else {
+            system.debug(fi.Body);         
+        }
+         listOfCases.add(c);
     }
         system.debug(listOfCases);
-    update listOfCases; 
+    	update listOfCases; 
     }
 
 }
