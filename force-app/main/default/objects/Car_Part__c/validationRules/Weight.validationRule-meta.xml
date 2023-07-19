@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Weight</fullName>
+    <active>true</active>
+    <description>Weight can not exceed 10 000 lb</description>
+    <errorConditionFormula>Weight__c &gt; 10000</errorConditionFormula>
+    <errorDisplayField>Weight__c</errorDisplayField>
+    <errorMessage>Weight can not exceed 10 000 lb</errorMessage>
+</ValidationRule>
