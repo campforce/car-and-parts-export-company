@@ -63,7 +63,7 @@ Salesforce application of auto parts retailer. 🚘🛠⚙️
 - [Session 3: **Example of completing (pushing-pulling) LWC Tasks**](https://us06web.zoom.us/rec/share/rLMaA7LwwEi6KvLcuoN9nk6ZPVtBaZDD7f3yc1vX634gM8WbzhJkU0xgEdsHcwkY.a-zfzI7SboXK_Dv5?startTime=1689429913000/)
 - [Session 4: **Example of completing (pushing-pulling) Admin Tasks**](https://us06web.zoom.us/rec/share/wD2lSOjx0Tlla50x7A5wrlkGLYL4AwQE3oELW5Qg6Hp6u6uWvhhy8UMKOrqlyPgL.amoME5KaWW43ZZNu?startTime=1689492046000/)
 - [Session 5: **Example of completing (pushing-pulling) Job (Batchable/Schedulleable) Tasks**](https://us06web.zoom.us/rec/share/OsdZ7OU4y-GZXMFgZAjpCAWKH3Nsk6FCnVbvAuWjMt83JDquauZ64Vl_2QiazJ2t.TzvLRYSFDWbGFPfF?startTime=1689501084000/)
-- [Session 6: **Session about Trigger Framework**](https://www.getforce.dev/courses/take/developer/lessons/45262207-video-lesson-2023-03-29)
+- [Session 6: **Session about Trigger Framework**](https://drive.google.com/file/d/1Qw28JjGK2SkuaOHzEpKMtN3fWaITIQ9a/view?usp=sharing/)
 - [Session 7: **Example of completing (pushing-pulling) Trigger Tasks**](https://us06web.zoom.us/rec/share/WQRQnXedXwwr9PGPizeNYlwQVquzLwXl2qEP-I2s0r0cEojBU8tRjHXoqbXB5Z0V.j6tQAf5-LeBBpFq6?startTime=1689517237000/)
 
 
