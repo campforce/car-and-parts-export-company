@@ -11,8 +11,9 @@ public class AccountTriggerHandler extends TriggerHandler {
         this.newAccountMap = (Map<Id, Account>) Trigger.newMap;
         this.oldAccountMap = (Map<Id, Account>) Trigger.oldMap;
     }
-
-    public override void beforeUpdate() {
-        AccountService.demonstrativeMethod(oldAccountMap, newAccountMap);
+  
+    public override void beforeInsert() {
+        AccountService.insertTaskToOwner(newAccountList);
     }
+
 }
