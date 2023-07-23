@@ -1,0 +1,63 @@
+<template>
+    
+    /**
+    * Create the LWC Account Inserter component and put it on Auto-Part Export App page.
+    * Controller Class: insertAccount
+    * @author Gul Bayram
+    */
+
+    <lightning-card title="Insert Account">
+
+        <lightning-input
+    
+          label="Account Name: "
+    
+          onchange={nameChangehandler}
+    
+          class="slds-var-m-around_large">
+    
+        </lightning-input>
+    
+    
+    
+        <lightning-input
+    
+          label="Account Phone: "
+    
+          onchange={phoneChangehandler}
+    
+          class="slds-var-m-around_large">
+    
+        </lightning-input>
+    
+    
+    
+        <lightning-button
+    
+          label="Insert Account"
+    
+          onclick={clickHandler}
+    
+          variant="brand"
+    
+          class="slds-var-m-around_medium">
+    
+        </lightning-button>
+    
+    
+    
+        <template if:true={accountInsertedId}>
+    
+          <div class="slds-var-m-around_medium">
+    
+            Created Account ID:<strong> {accountInsertedId}</strong>
+    
+          </div>
+    
+    
+    
+        </template>
+    
+      </lightning-card>
+
+</template>
