@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_of_Monthly_Salary__c</fullName>
+    <description>If the master dismantles 30 or more cars in a month, then master gets +350$ bonus each month.</description>
+    <externalId>false</externalId>
+    <formula>IF(Monthly_Number_of_dismentled_cars__c &gt;= 30, Monthly_Salary__c + 350, Monthly_Salary__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total of Monthly Salary</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>
