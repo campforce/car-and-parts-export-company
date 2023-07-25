@@ -3,7 +3,7 @@
     <applicationVisibilities>
         <application>Auto_Parts_Export</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
         <apexClass>AccountService</apexClass>
@@ -54,18 +54,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>FeedItemService</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>FeedItemServiceTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>FeedItemTriggerHandler</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>TriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -109,9 +97,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Car__c.Car_Cost_converted_KGS__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -199,9 +187,33 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-
+        <editable>true</editable>
+        <field>Contact.Monthly_Number_of_dismentled_cars__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Monthly_Salary__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Position__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Total_of_Monthly_Salary__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Weekly_Number_of_dismentled_cars__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Weekly_Salary__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -211,8 +223,13 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Container__c.Container_Label_Color__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Container__c.Country_Code__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -264,6 +281,13 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Car__c-Car Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-Contact Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-Contact Layout</layout>
+        <recordType>Contact.Client</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Employee</layout>
@@ -323,7 +347,7 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Auto_Part_Export</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Car_Part__c</tab>
