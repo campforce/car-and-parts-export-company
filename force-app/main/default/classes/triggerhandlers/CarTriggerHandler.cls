@@ -17,7 +17,7 @@ public with sharing class CarTriggerHandler extends TriggerHandler {
     }
     
     public override void beforeUpdate() {
-             
+             CarService.calculationTransp(this.newCarList);
     }
     
     public override void afterInsert() {
