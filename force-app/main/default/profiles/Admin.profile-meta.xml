@@ -3,7 +3,7 @@
     <applicationVisibilities>
         <application>Auto_Parts_Export</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
         <apexClass>AccountService</apexClass>
@@ -15,6 +15,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>AccountTriggerHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CarController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CarController1</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -71,6 +79,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>TriggerHandlerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tableController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -199,9 +211,18 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-
+        <editable>true</editable>
+        <field>Contact.Monthly_Number_of_dismentled_cars__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Position__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Weekly_Number_of_dismentled_cars__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -323,7 +344,7 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Auto_Part_Export</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Car_Part__c</tab>
