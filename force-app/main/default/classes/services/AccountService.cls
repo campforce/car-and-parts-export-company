@@ -1,15 +1,34 @@
 public with sharing class AccountService {
 
     /**
-     * Demonstrative method to show where put trigger logic.
-     * 
-     * @param oldMap old accounts
-     * @param newMap new accounts
-     * @author belekomurzakov
+     *Write the trigger when Account inserrted with Type='Hot', create the task to owner
+     * Test Class: insertTaskToOwnerTest
+     * @author Gul Bayram
      */
-    public static void demonstrativeMethod(Map<Id, Account> oldMap, Map<Id, Account> newMap) {
-        // your logic is here.
-    system.debug('Hello, I am from Scratch Org');
+
+
+    public static void insertTaskToOwner(list<Account> accNewList) {
+       
+        List<Task> tasksToInsert = new List<Task>();
+    
+        for (Account acc : accNewList) {
+            if (acc.Rating == 'Hot') {
+                Task newTask = new Task();
+                newTask.Subject = 'Big Company';
+                newTask.WhatId = acc.Id;
+                newTask.OwnerId = acc.OwnerId;
+                newTask.Status = 'Not Started';
+                newTask.Priority = 'Normal';
+                
+                tasksToInsert.add(newTask);
+            }
+            
+            
+        }
+        
+        if (!tasksToInsert.isEmpty()) {
+            insert tasksToInsert;
+        }
        
     }
 }

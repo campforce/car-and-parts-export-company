@@ -1,45 +1,40 @@
 /**
  * Created by omurzakov on 20.08.2022.
  */
+
 @isTest
-public with sharing class CarServiceTest {
-    @testSetup public static void collectData(){
-        list<Contact> cons = new list<Contact>();
-        cons.add(new Contact(lastName = 'testDriver1')); 
-        cons.add(new Contact(lastName = 'testDriver2', email = 'testDriver@gmail.com'));
-        cons.add(new Contact(lastName = 'testMaster1'));
-        cons.add(new Contact(lastName = 'testMaster2', email = 'testMaster@gmal.com'));
-        
-        insert cons;
-    }
-    @isTest public static void testTrigger(){
-        list<Contact> cons = [Select id, lastname, name from Contact where lastName like '%Driver%'];
-        list<Contact> consM = [Select id, lastname, name from Contact where lastName like '%Master%'];
-        list<Car__c> cars = new list<Car__c>();
-        
-        for(integer i=0; i<2; i++){
-            cars.add(new Car__c(name = 'testCar'+ (i+1), driver__c = cons[i].id, master__c = consM[i].id, total_cost__c = 3000));
+public class CarServiceTest {
+    @isTest
+    static void testPurchaseDateValidation() {
+        // Test data
+        Date pastDate = Date.today().addDays(-1);
+        Date futureDate = Date.today().addDays(1);
+        contact con=new Contact(LastName='Japarov');
+        insert con;
+        // Create a Car record with a past Purchase Date
+        Car__c carWithPastDate = new Car__c(Name = 'Test Car', Purchase_Date__c = pastDate, Driver__c=con.Id);
+
+        // Create a Car record with a future Purchase Date
+        Car__c carWithFutureDate = new Car__c(Name = 'Test Car', Purchase_Date__c = futureDate, Driver__c=con.Id);
+
+        // Test the trigger logic for the past date
+        Test.startTest();
+        try {
+            insert carWithPastDate;
+            // If the trigger is working correctly, the above insert should throw an exception
+            System.assert(false, 'Expected exception not thrown.');
+        } catch (DmlException e) {
+            // Verify that the error message is correct
+            System.assertEquals('Purchase Date must be today or later.', e.getDmlMessage(0));
         }
-        
-        insert cars;
-        
-        List<EmailMessage> emails = [SELECT Id, ToAddress, Subject FROM EmailMessage];
+        Test.stopTest();
 
-        // Assert that at least one email was added to the queue
-        System.assertNotEquals(1, emails.size());
+        // Test the trigger logic for the future date
         
-        cars = [Select total_cost__c from Car__c];
+        insert carWithFutureDate;
         
-        for(Car__c c:cars){
-            c.total_cost__c=4000;
-        }
-        update cars;
-         emails = [SELECT Id, ToAddress, Subject FROM EmailMessage];
 
-        // Assert that at least one email was added to the queue
-        System.assertNotEquals(1, emails.size());
+        // Verify that the car with the future date was inserted without errors
+        System.assertEquals(1, [SELECT COUNT() FROM Car__c WHERE Id = :carWithFutureDate.Id]);
     }
-    
-
-
 }
