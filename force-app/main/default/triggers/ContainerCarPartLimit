@@ -1,0 +1,38 @@
+trigger CarPartTrigger on Car_Part__c (before insert, before update) {
+
+//method 1
+            set<id>contId = new set<id>();
+            for(car_part__c carp:Trigger.new){
+                if(carp.container__c !=null){
+                    contId.add(carp.container__c);
+                }
+            }
+            
+            list<Container__c> conts = [Select id, name, (Select id, name from Car_parts__r) from Container__c where id in:contID];
+            
+            integer count;
+            
+            for(Container__c cont:conts){
+                count=0;
+                for(car_part__c carp:Trigger.new){
+                    if(cont.id == carp.container__c){
+                        count++;
+                        if(cont.car_parts__r.size()+count >10){
+                            carp.container__c.addError('A container can have a maximum of 10 car parts.');                    
+                        }
+                    }
+                }
+                
+            }
+ 
+    
+    //method 2
+         
+            List<Car_part__c> numberOfCarParts = [Select Id from Car_Part__c 
+                                                  where Container__c=:Trigger.new[0].Container__c];
+            
+            if(numberOfCarParts.size()>10){
+                trigger.new[0].addError('A container size can not exceed. 10');
+            }
+            
+        }
