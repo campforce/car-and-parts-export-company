@@ -12,10 +12,6 @@ public class CarTriggerHandler extends TriggerHandler {
     }
   
     public override void beforeInsert() {
-       CarService.ValidatePurchaseDate(newCarList);
+      // CarService.ValidatePurchaseDate(newCarList);
     }
-         public override void beforeUpdate() {
-       CarService.ValidatePurchaseDate(newCarList);
-    }
-
-    }
+}
