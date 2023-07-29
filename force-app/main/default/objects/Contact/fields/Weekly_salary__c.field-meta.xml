@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Weekly_salary__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Number_of_dismentled_cars__c  &gt;= 7,
+    1400 + ((Number_of_dismentled_cars__c-7) * 200),
+    1400 - ((7 - Number_of_dismentled_cars__c) * 200)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Weekly salary</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>
