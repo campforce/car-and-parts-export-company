@@ -113,6 +113,11 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Car__c</fields>
+        <fields>Is_Export__c</fields>
+        <fields>Is_Sold__c</fields>
+        <fields>Price__c</fields>
+        <fields>Weight__c</fields>
         <relatedList>Car_Part__c.Container__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
@@ -121,7 +126,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h3O000002jN8d</masterLabel>
+        <masterLabel>00h05000001IJ8C</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

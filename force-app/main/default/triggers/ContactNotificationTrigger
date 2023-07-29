@@ -1,0 +1,28 @@
+trigger ContactNotificationTrigger on Contact (after insert) {
+    // This trigger fires after a new contact is inserted.
+
+    // Create a list to hold email messages
+    List<Messaging.SingleEmailMessage> emailMessages = new List<Messaging.SingleEmailMessage>();
+
+    // Iterate through the new contacts
+    for (Contact newContact : Trigger.new) {
+        // Get the owner ID of the contact
+        Id ownerID = newContact.OwnerId;
+
+        // Query the owner's email address
+        User owner = [SELECT Email FROM User WHERE Id = :ownerID LIMIT 1];
+
+        // Create the email message
+        Messaging.SingleEmailMessage email = new Messaging.SingleEmailMessage();
+        email.setToAddresses(new List<String>{ owner.Email });
+        email.setSubject('New Contact Created');
+        email.setPlainTextBody('A new contact has been created with the name: ' + newContact.FirstName + ' ' + newContact.LastName + '.');
+
+        // Add the email message to the list
+        emailMessages.add(email);
+    }
+
+    // Send the email messages
+    Messaging.sendEmail(emailMessages);
+}
+

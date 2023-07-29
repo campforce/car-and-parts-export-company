@@ -1,18 +1,46 @@
 public with sharing class CarPartService {
-    public static void makeContainerTrue(List <Car_Part__c> carPartNewList) {
-    
-         /*List<Car_Part__c> carPartsToUpdate =[Select Id, Name from Car_Part__c];*/
+    /**
+     *Write the trigger when Account inserrted with Type='Hot', create the task to owner
+     * Test Class: insertTaskToOwnerTest
+     * @author Adina
+     */
+    public CarPartService() {
 
-          for (Car_Part__c carPart : carPartNewList)  {
-        // Check if the container field is selected (assuming 'Container__c' is the API name of the container field)
-        if (carPart.Container__c != null) {
-            // Set the isExport field to true (assuming 'isExport__c' is the API name of the isExport field)
-            carPart.Is_Export__c = true;
-            /*carPartsToUpdate.add(carPart);*/
-        }
     }
 
-    /*// Update the records with the updated 'isExport' field value
-    update carPartsToUpdate;*/
+    public static void beforeInsert(list<Car_part__c> newCarParts){
+        set<id>contId = new set<id>();
+        for(car_part__c carp:newCarParts){
+            if(carp.container__c !=null){
+                contId.add(carp.container__c);
+            }
+        }
+        
+        list<Container__c> conts = [Select id, name, (Select id, name from Car_parts__r) from Container__c where id in:contID];
+        
+        integer count;
+        
+        for(Container__c cont:conts){
+            count=0;
+            for(car_part__c carp:newCarParts){
+                if(cont.id == carp.container__c){
+                    count++;
+                    if(cont.car_parts__r.size()+count >10){
+                        carp.container__c.addError('A container can have a maximum of 10 car parts.');                    
+                    }
+                }
+            }            
+        }       
+    }
+    
+    public static void beforeUpdate(list<Car_part__c> newCarParts){
+        List<Car_part__c> numberOfCarParts = [Select Id from Car_Part__c 
+                                              where Container__c=:newCarParts[0].Container__c];
+        
+        if(numberOfCarParts.size()>10){
+            newCarParts[0].addError('A container size can not exceed. 10');
+        }     
+    }         
+    
 }
-}
+
