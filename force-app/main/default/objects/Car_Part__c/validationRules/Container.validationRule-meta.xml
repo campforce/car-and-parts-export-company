@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Container</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(ISBLANK(Container__c), Is_Export__c  = true, Is_Export__c  = false)</errorConditionFormula>
+    <errorMessage>You can choose container only if car-part for export</errorMessage>
+</ValidationRule>
