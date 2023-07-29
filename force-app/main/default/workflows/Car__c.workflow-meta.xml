@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Storage_Cost_Notification</fullName>
+        <ccEmails>zambakkizazh@gmail.com</ccEmails>
+        <ccEmails>acoldoshova@gmail.com</ccEmails>
+        <description>Storage Cost Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <recipients>
+            <recipient>test-yylyfamtmyqd@example.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Notification_about_the_Storage_Cost_1690555722295</template>
+    </alerts>
+</Workflow>
