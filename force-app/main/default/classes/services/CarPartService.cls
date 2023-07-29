@@ -1,6 +1,6 @@
 public with sharing class CarPartService {
     public static void makeContainerTrue(List <Car_Part__c> carPartNewList) {
-    
+            
          /*List<Car_Part__c> carPartsToUpdate =[Select Id, Name from Car_Part__c];*/
 
           for (Car_Part__c carPart : carPartNewList)  {
@@ -10,9 +10,7 @@ public with sharing class CarPartService {
             carPart.Is_Export__c = true;
             /*carPartsToUpdate.add(carPart);*/
         }
-    }
-
-    /*// Update the records with the updated 'isExport' field value
+    }    /*// Update the records with the updated 'isExport' field value
     update carPartsToUpdate;*/
 }
 }
