@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <environments>Default</environments>
+    <formulas>
+        <name>Comission</name>
+        <dataType>Currency</dataType>
+        <expression>IF({!$Record.Car_Cost__c}&gt;=0 &amp;&amp; {!$Record.Car_Cost__c}&lt;=1000, 170, IF({!$Record.Car_Cost__c}&gt;1000 &amp;&amp; {!$Record.Car_Cost__c}&lt;=2000, 250, IF({!$Record.Car_Cost__c}&gt;2000 &amp;&amp;  {!$Record.Car_Cost__c}&lt;=5000, 300, IF({!$Record.Car_Cost__c}&gt;5000 &amp;&amp;  {!$Record.Car_Cost__c}&lt;=10000, 350, 400))))</expression>
+        <scale>0</scale>
+    </formulas>
+    <interviewLabel>Comission {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Comission</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Updates_records</name>
+        <label>Updates records</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <inputAssignments>
+            <field>Comission__c</field>
+            <value>
+                <elementReference>Comission</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Updates_records</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Car_Cost__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Car__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>
